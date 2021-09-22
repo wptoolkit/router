@@ -1,0 +1,9 @@
+.github
+lib
+.releaserc
+.editorconfig
+.eslintrc.js
+.prettierrc
+LICENSE
+tsconfig.json
+tsconfig.production.json
