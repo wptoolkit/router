@@ -2,6 +2,7 @@
   "name": "@wptoolset/router",
   "version": "1.0.0",
   "license": "GPL-3.0",
+  "private": false,
   "contributors": [
     {
       "name": "Sibin Grasic",
