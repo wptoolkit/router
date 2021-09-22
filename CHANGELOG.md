@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wptoolkit/router/compare/v1.0.0...v1.0.1) (2021-09-22)
+
+
+### Bug Fixes
+
+* **NPM:** Marked package as non-private ([7f43375](https://github.com/wptoolkit/router/commit/7f433751e0ef749f464d5461ba02deb9089ef730))
+
 # 1.0.0 (2021-09-22)
 
 
