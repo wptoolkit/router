@@ -31,7 +31,6 @@
     "lint": "eslint lib/*.ts",
     "release:test": "node ./node_modules/semantic-release/bin/semantic-release.js --dry-run",
     "release": "node ./node_modules/semantic-release/bin/semantic-release.js"
-
   },
   "engines": {
     "node": ">= 14.0.0"
