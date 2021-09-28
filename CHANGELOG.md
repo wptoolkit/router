@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/wptoolkit/router/compare/v1.0.3...v1.0.4) (2021-09-28)
+
+
+### Bug Fixes
+
+* Fixed typos in imports ([663c7e8](https://github.com/wptoolkit/router/commit/663c7e82aa9823dbd1da0541a910483e213ee2d9))
+
 ## [1.0.3](https://github.com/wptoolkit/router/compare/v1.0.2...v1.0.3) (2021-09-28)
 
 
