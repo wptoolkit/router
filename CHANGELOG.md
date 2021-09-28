@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/wptoolkit/router/compare/v1.0.2...v1.0.3) (2021-09-28)
+
+
+### Bug Fixes
+
+* Removed generic types from all classes and interfaces ([367ad69](https://github.com/wptoolkit/router/commit/367ad6935a2cdfe77f54ab8f2b727651c465f1b5))
+
 ## [1.0.2](https://github.com/wptoolkit/router/compare/v1.0.1...v1.0.2) (2021-09-22)
 
 
