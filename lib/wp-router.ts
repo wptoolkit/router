@@ -1,5 +1,6 @@
 import camelCase from 'camelcase';
 import { RouteInterface, RouteList } from './interfaces';
+import { ClassList } from './interfaces/class-list.interface';
 
 /**
  * DOM-based Routing
@@ -7,14 +8,22 @@ import { RouteInterface, RouteList } from './interfaces';
  * The routing fires all common scripts, followed by the page specific scripts.
  * Add additional events for more control over timing e.g. a finalize event
  */
-export class WpRouter<T extends RouteInterface> {
-  private classes: { [key: string]: T };
+export class WpRouter {
+  /**
+   * List of instantiated classes
+   *
+   * @private
+   * @type {ClassList}
+   * @memberof WpRouter
+   */
+  private classes: ClassList;
 
   /**
    * Create a new Router
-   * @param routes
+   * @param routes    A RouteList object
+   * @param propagate Should we trigger a global dispatch event
    */
-  constructor(private readonly routes: RouteList<T>, private readonly propagate = false) {
+  constructor(private readonly routes: RouteList, private readonly propagate = false) {
     this.classes = {};
   }
 

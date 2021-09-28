@@ -1,3 +1,5 @@
-export interface RouteList<T> {
-  [key: string]: () => T;
+import { RouteInterface } from '.';
+
+export interface RouteList {
+  [key: string]: () => RouteInterface;
 }

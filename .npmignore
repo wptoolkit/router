@@ -1,9 +1,9 @@
 .github
 lib
-.releaserc
 .editorconfig
 .eslintrc.js
 .prettierrc
+.releaserc
 LICENSE
 tsconfig.json
 tsconfig.production.json
