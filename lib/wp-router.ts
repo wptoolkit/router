@@ -1,6 +1,5 @@
 import camelCase from 'camelcase';
-import { RouteInterface, RouteList } from './interfaces';
-import { ClassList } from './interfaces/class-list.interface';
+import { ClassList, RouteList } from './interfaces';
 
 /**
  * DOM-based Routing
